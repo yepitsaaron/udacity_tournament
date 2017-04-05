@@ -22,6 +22,7 @@ CREATE TABLE matches (
   loser INT REFERENCES players(id)
 );
 
+-- created a view, but its not completely necessary
 CREATE VIEW standings AS
   select id,wins from players
   order by wins DESC
