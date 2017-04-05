@@ -1,9 +1,11 @@
 #!/usr/bin/env python
-# 
+#
 # tournament.py -- implementation of a Swiss-system tournament
 #
 
+
 import psycopg2
+
 
 def connect():
     """Connect to the PostgreSQL database.  Returns a database connection."""
@@ -28,6 +30,7 @@ def deletePlayers():
     conn.commit()
     conn.close()
 
+
 def countPlayers():
     """Returns the number of players currently registered."""
     conn = connect()
@@ -37,27 +40,28 @@ def countPlayers():
     conn.close()
     return result[0]
 
+
 def registerPlayer(name):
     """Adds a player to the tournament database.
-  
     The database assigns a unique serial id number for the player.  (This
     should be handled by your SQL database schema, not in your Python code.)
-  
     Args:
       name: the player's full name (need not be unique).
     """
     conn = connect()
     c = conn.cursor()
+
     # when substituting, make sure to (basic) sanitize the input
     c.execute("insert INTO players(name) values(%s)", (name,))
     conn.commit()
     conn.close()
 
+
 def playerStandings():
     """Returns a list of the players and their win records, sorted by wins.
 
-    The first entry in the list should be the player in first place, or a player
-    tied for first place if there is currently a tie.
+    The first entry in the list should be the player in first place, or a
+    player tied for first place if there is currently a tie.
 
     Returns:
       A list of tuples, each of which contains (id, name, wins, matches):
@@ -83,14 +87,19 @@ def reportMatch(winner, loser):
     """
     conn = connect()
     c = conn.cursor()
-    c.execute("insert INTO matches(winner,loser) values(%i,%i)" % (winner,loser))
+    c.execute("insert INTO matches(winner, loser) values(%i,%i)"
+              % (winner, loser))
+
     # update winner
-    c.execute("update players set wins = (wins+1),matches = (matches+1) where id = %i" % winner)
+    c.execute("update players set wins = (wins+1),matches = (matches+1)"
+              "where id = %i" % winner)
+
     # update loser
     c.execute("update players set matches = (matches+1) where id = %i" % loser)
     conn.commit()
     conn.close()
- 
+
+
 def swissPairings():
     conn = connect()
     c = conn.cursor()
@@ -99,21 +108,31 @@ def swissPairings():
     results = c.fetchone()
     max_wins = results[0]
     # find winning pairings
-    c.execute("select s.id,p.name FROM standings s join players p on s.id=p.id where s.wins = %s order by s.wins desc;" % max_wins)
+    c.execute("select s.id,p.name FROM standings s join players p on "
+              "s.id=p.id where s.wins = %s order by s.wins desc;" % max_wins)
     winning_players = c.fetchall()
     # add winning players to array
     winning_pairs = []
     for i in range(1, len(winning_players), 2):
-        # to eliminate the extra set of parenthesis, we have to return the actual values of the dict
-        winning_pairs += [(winning_players[i - 1][0],winning_players[i - 1][1], winning_players[i][0],winning_players[i][1])]
+        # to eliminate the extra set of (), return actual values of dict
+        winning_pairs += [(winning_players[i - 1][0],
+                           winning_players[i - 1][1],
+                           winning_players[i][0],
+                           winning_players[i][1])
+                          ]
 
     # find losing pairs
-    c.execute("select s.id,p.name FROM standings s join players p on s.id=p.id where s.wins < %s order by s.wins desc;" % max_wins)
+    c.execute("select s.id,p.name FROM standings s join players p on "
+              "s.id=p.id where s.wins < %s order by s.wins desc;" % max_wins)
     losing_players = c.fetchall()
     losing_pairs = []
     for i in range(1, len(losing_players), 2):
-        # to eliminate the extra set of parenthesis, we have to return the actual values of the dict
-        losing_pairs += [(losing_players[i - 1][0],losing_players[i - 1][1], losing_players[i][0],losing_players[i][1])]
+        # to eliminate the extra set of (), return actual values of dict
+        losing_pairs += [(losing_players[i - 1][0],
+                          losing_players[i - 1][1],
+                          losing_players[i][0],
+                          losing_players[i][1])
+                         ]
     # add winning and losing lists together
     pairs = winning_pairs + losing_pairs
     conn.close()
