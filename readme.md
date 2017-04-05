@@ -1,4 +1,12 @@
-# Install Vagrant and VirtualBox
-# Clone the repo to your machine
-# Launch the Vagrant VM (vagrant up)
-# Run the test suite to verify (python tournament_test.py)
+This app tracks a Swiss-style tournament
+- Install Vagrant and VirtualBox
+- Launch the Vagrant VM
+  - vagrant up
+- Install Git on the Vagrant machine
+- Clone the repo to your Vagrant machine
+  - git clone https://github.com/yepitsaaron/udacity_tournament.git
+  - cd udacity_tournament
+- create the psql database
+  - $ psql -f tournament.sql
+- run the test suite to verify the app works and all tests pass
+  - $ python tournament_test.py
