@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="405166b7-28f0-4a3e-9733-7cef773026c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.py" afterPath="$PROJECT_DIR$/tournament.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.sql" afterPath="$PROJECT_DIR$/tournament.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,25 +38,20 @@
       <file leaf-file-name="tournament.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+            <state relative-caret-position="1350">
+              <caret line="90" column="60" lean-forward="false" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
               <folding>
-                <marker date="1491428160000" expanded="true" signature="390:409" ph="delete FROM " />
-                <marker date="1491428160000" expanded="true" signature="588:607" ph="delete FROM " />
-                <marker date="1491428160000" expanded="true" signature="788:816" ph="select count... players" />
-                <marker date="1491428160000" expanded="true" signature="804:816" ph="delete FROM " />
-                <marker date="1491428160000" expanded="true" signature="1311:1344" ph="insert INTO players... " />
-                <marker date="1491428160000" expanded="true" signature="1311:1347" ph="insert INTO players... " />
-                <marker date="1491428160000" expanded="true" signature="1323:1330" ph="select count... players" />
-                <marker date="1491428160000" expanded="true" signature="2016:2117" ph="select * FRO... players" />
-                <marker date="1491428160000" expanded="true" signature="2463:2505" ph="insert INTO matches... " />
-                <marker date="1491428160000" expanded="true" signature="2463:2508" ph="insert INTO matches... " />
-                <marker date="1491428160000" expanded="true" signature="2463:2511" ph="insert INTO matches... " />
-                <marker date="1491428160000" expanded="true" signature="2463:2512" ph="insert INTO matches... " />
-                <marker date="1491428160000" expanded="true" signature="2716:2738" ph="select max(w... players" />
-                <marker date="1491428160000" expanded="true" signature="2716:2747" ph="select max(w... standings" />
-                <marker date="1491428160000" expanded="true" signature="2847:2966" ph="select id,sc... standings" />
-                <marker date="1491428160000" expanded="true" signature="3471:3590" ph="select id,wi... standings" />
+                <marker date="1491428483000" expanded="true" signature="390:409" ph="delete FROM " />
+                <marker date="1491428483000" expanded="true" signature="588:607" ph="delete FROM " />
+                <marker date="1491428483000" expanded="true" signature="788:816" ph="select count... players" />
+                <marker date="1491428483000" expanded="true" signature="804:816" ph="delete FROM " />
+                <marker date="1491428483000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
+                <marker date="1491428483000" expanded="true" signature="2054:2155" ph="select * FRO... players" />
+                <marker date="1491428483000" expanded="true" signature="2499:2547" ph="insert INTO matches... " />
+                <marker date="1491428483000" expanded="true" signature="2777:2799" ph="select max(w... players" />
+                <marker date="1491428483000" expanded="true" signature="2777:2808" ph="select max(w... standings" />
+                <marker date="1491428483000" expanded="true" signature="2908:3027" ph="select id,sc... standings" />
+                <marker date="1491428483000" expanded="true" signature="3532:3651" ph="select id,wi... standings" />
               </folding>
             </state>
           </provider>
@@ -472,22 +465,17 @@
         <state relative-caret-position="1770">
           <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
           <folding>
-            <marker date="1491428160000" expanded="true" signature="390:409" ph="delete FROM " />
-            <marker date="1491428160000" expanded="true" signature="588:607" ph="delete FROM " />
-            <marker date="1491428160000" expanded="true" signature="788:816" ph="select count... players" />
-            <marker date="1491428160000" expanded="true" signature="804:816" ph="delete FROM " />
-            <marker date="1491428160000" expanded="true" signature="1311:1344" ph="insert INTO players... " />
-            <marker date="1491428160000" expanded="true" signature="1311:1347" ph="insert INTO players... " />
-            <marker date="1491428160000" expanded="true" signature="1323:1330" ph="select count... players" />
-            <marker date="1491428160000" expanded="true" signature="2016:2117" ph="select * FRO... players" />
-            <marker date="1491428160000" expanded="true" signature="2463:2505" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2463:2508" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2463:2511" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2463:2512" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2716:2738" ph="select max(w... players" />
-            <marker date="1491428160000" expanded="true" signature="2716:2747" ph="select max(w... standings" />
-            <marker date="1491428160000" expanded="true" signature="2847:2966" ph="select id,sc... standings" />
-            <marker date="1491428160000" expanded="true" signature="3471:3590" ph="select id,wi... standings" />
+            <marker date="1491428483000" expanded="true" signature="390:409" ph="delete FROM " />
+            <marker date="1491428483000" expanded="true" signature="588:607" ph="delete FROM " />
+            <marker date="1491428483000" expanded="true" signature="788:816" ph="select count... players" />
+            <marker date="1491428483000" expanded="true" signature="804:816" ph="delete FROM " />
+            <marker date="1491428483000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
+            <marker date="1491428483000" expanded="true" signature="2054:2155" ph="select * FRO... players" />
+            <marker date="1491428483000" expanded="true" signature="2499:2547" ph="insert INTO matches... " />
+            <marker date="1491428483000" expanded="true" signature="2777:2799" ph="select max(w... players" />
+            <marker date="1491428483000" expanded="true" signature="2777:2808" ph="select max(w... standings" />
+            <marker date="1491428483000" expanded="true" signature="2908:3027" ph="select id,sc... standings" />
+            <marker date="1491428483000" expanded="true" signature="3532:3651" ph="select id,wi... standings" />
           </folding>
         </state>
       </provider>
@@ -534,25 +522,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="79" column="22" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        <state relative-caret-position="1350">
+          <caret line="90" column="60" lean-forward="false" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
           <folding>
-            <marker date="1491428160000" expanded="true" signature="390:409" ph="delete FROM " />
-            <marker date="1491428160000" expanded="true" signature="588:607" ph="delete FROM " />
-            <marker date="1491428160000" expanded="true" signature="788:816" ph="select count... players" />
-            <marker date="1491428160000" expanded="true" signature="804:816" ph="delete FROM " />
-            <marker date="1491428160000" expanded="true" signature="1311:1344" ph="insert INTO players... " />
-            <marker date="1491428160000" expanded="true" signature="1311:1347" ph="insert INTO players... " />
-            <marker date="1491428160000" expanded="true" signature="1323:1330" ph="select count... players" />
-            <marker date="1491428160000" expanded="true" signature="2016:2117" ph="select * FRO... players" />
-            <marker date="1491428160000" expanded="true" signature="2463:2505" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2463:2508" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2463:2511" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2463:2512" ph="insert INTO matches... " />
-            <marker date="1491428160000" expanded="true" signature="2716:2738" ph="select max(w... players" />
-            <marker date="1491428160000" expanded="true" signature="2716:2747" ph="select max(w... standings" />
-            <marker date="1491428160000" expanded="true" signature="2847:2966" ph="select id,sc... standings" />
-            <marker date="1491428160000" expanded="true" signature="3471:3590" ph="select id,wi... standings" />
+            <marker date="1491428483000" expanded="true" signature="390:409" ph="delete FROM " />
+            <marker date="1491428483000" expanded="true" signature="588:607" ph="delete FROM " />
+            <marker date="1491428483000" expanded="true" signature="788:816" ph="select count... players" />
+            <marker date="1491428483000" expanded="true" signature="804:816" ph="delete FROM " />
+            <marker date="1491428483000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
+            <marker date="1491428483000" expanded="true" signature="2054:2155" ph="select * FRO... players" />
+            <marker date="1491428483000" expanded="true" signature="2499:2547" ph="insert INTO matches... " />
+            <marker date="1491428483000" expanded="true" signature="2777:2799" ph="select max(w... players" />
+            <marker date="1491428483000" expanded="true" signature="2777:2808" ph="select max(w... standings" />
+            <marker date="1491428483000" expanded="true" signature="2908:3027" ph="select id,sc... standings" />
+            <marker date="1491428483000" expanded="true" signature="3532:3651" ph="select id,wi... standings" />
           </folding>
         </state>
       </provider>

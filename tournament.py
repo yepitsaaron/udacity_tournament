@@ -51,7 +51,9 @@ def registerPlayer(name):
     c = conn.cursor()
 
     # when substituting, make sure to (basic) sanitize the input
-    c.execute("insert INTO players(name) values(%s)", (name,))
+    query = "insert INTO players(name) values(%s)"
+    params = (name,)
+    c.execute(query, params)
     conn.commit()
     conn.close()
 
@@ -86,8 +88,9 @@ def reportMatch(winner, loser):
     """
     conn = connect()
     c = conn.cursor()
-    c.execute("insert INTO matches(winner, loser) values(%i,%i)"
-              % (winner, loser))
+    query = "insert INTO matches(winner, loser) values(%s,%s)"
+    params = (winner, loser)
+    c.execute(query, params)
     conn.commit()
     conn.close()
 
