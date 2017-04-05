@@ -73,7 +73,8 @@ def playerStandings():
     """
     conn = connect()
     c = conn.cursor()
-    c.execute("select s.id,p.name,s.wins,s.matches FROM standings s join players p on p.id = s.id order by wins desc;")
+    c.execute("select s.id,p.name,s.wins,s.matches FROM standings s "
+              "join players p on p.id = s.id order by wins desc;")
     results = c.fetchall()
     conn.close()
     return results

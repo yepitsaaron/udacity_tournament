@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="405166b7-28f0-4a3e-9733-7cef773026c1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournament.py" afterPath="$PROJECT_DIR$/tournament.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,33 +35,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tournament.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tournament.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="90" column="60" lean-forward="false" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
+            <state relative-caret-position="195">
+              <caret line="75" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding>
-                <marker date="1491428483000" expanded="true" signature="390:409" ph="delete FROM " />
-                <marker date="1491428483000" expanded="true" signature="588:607" ph="delete FROM " />
-                <marker date="1491428483000" expanded="true" signature="788:816" ph="select count... players" />
-                <marker date="1491428483000" expanded="true" signature="804:816" ph="delete FROM " />
-                <marker date="1491428483000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
-                <marker date="1491428483000" expanded="true" signature="2054:2155" ph="select * FRO... players" />
-                <marker date="1491428483000" expanded="true" signature="2499:2547" ph="insert INTO matches... " />
-                <marker date="1491428483000" expanded="true" signature="2777:2799" ph="select max(w... players" />
-                <marker date="1491428483000" expanded="true" signature="2777:2808" ph="select max(w... standings" />
-                <marker date="1491428483000" expanded="true" signature="2908:3027" ph="select id,sc... standings" />
-                <marker date="1491428483000" expanded="true" signature="3532:3651" ph="select id,wi... standings" />
+                <marker date="1491429009000" expanded="true" signature="390:409" ph="delete FROM " />
+                <marker date="1491429009000" expanded="true" signature="588:607" ph="delete FROM " />
+                <marker date="1491429009000" expanded="true" signature="788:816" ph="select count... players" />
+                <marker date="1491429009000" expanded="true" signature="804:816" ph="delete FROM " />
+                <marker date="1491429009000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
+                <marker date="1491429009000" expanded="true" signature="2054:2172" ph="select * FRO... players" />
+                <marker date="1491429009000" expanded="true" signature="2516:2564" ph="insert INTO matches... " />
+                <marker date="1491429009000" expanded="true" signature="2794:2816" ph="select max(w... players" />
+                <marker date="1491429009000" expanded="true" signature="2794:2825" ph="select max(w... standings" />
+                <marker date="1491429009000" expanded="true" signature="2925:3044" ph="select id,sc... standings" />
+                <marker date="1491429009000" expanded="true" signature="3549:3668" ph="select id,wi... standings" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="165">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
       <list>
         <option value="$PROJECT_DIR$/tournament_test.py" />
         <option value="$PROJECT_DIR$/tournament.sql" />
-        <option value="$PROJECT_DIR$/tournament.py" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/tournament.py" />
       </list>
     </option>
   </component>
@@ -465,17 +465,17 @@
         <state relative-caret-position="1770">
           <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
           <folding>
-            <marker date="1491428483000" expanded="true" signature="390:409" ph="delete FROM " />
-            <marker date="1491428483000" expanded="true" signature="588:607" ph="delete FROM " />
-            <marker date="1491428483000" expanded="true" signature="788:816" ph="select count... players" />
-            <marker date="1491428483000" expanded="true" signature="804:816" ph="delete FROM " />
-            <marker date="1491428483000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
-            <marker date="1491428483000" expanded="true" signature="2054:2155" ph="select * FRO... players" />
-            <marker date="1491428483000" expanded="true" signature="2499:2547" ph="insert INTO matches... " />
-            <marker date="1491428483000" expanded="true" signature="2777:2799" ph="select max(w... players" />
-            <marker date="1491428483000" expanded="true" signature="2777:2808" ph="select max(w... standings" />
-            <marker date="1491428483000" expanded="true" signature="2908:3027" ph="select id,sc... standings" />
-            <marker date="1491428483000" expanded="true" signature="3532:3651" ph="select id,wi... standings" />
+            <marker date="1491429009000" expanded="true" signature="390:409" ph="delete FROM " />
+            <marker date="1491429009000" expanded="true" signature="588:607" ph="delete FROM " />
+            <marker date="1491429009000" expanded="true" signature="788:816" ph="select count... players" />
+            <marker date="1491429009000" expanded="true" signature="804:816" ph="delete FROM " />
+            <marker date="1491429009000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
+            <marker date="1491429009000" expanded="true" signature="2054:2172" ph="select * FRO... players" />
+            <marker date="1491429009000" expanded="true" signature="2516:2564" ph="insert INTO matches... " />
+            <marker date="1491429009000" expanded="true" signature="2794:2816" ph="select max(w... players" />
+            <marker date="1491429009000" expanded="true" signature="2794:2825" ph="select max(w... standings" />
+            <marker date="1491429009000" expanded="true" signature="2925:3044" ph="select id,sc... standings" />
+            <marker date="1491429009000" expanded="true" signature="3549:3668" ph="select id,wi... standings" />
           </folding>
         </state>
       </provider>
@@ -512,31 +512,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tournament.py">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="60" lean-forward="false" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
-          <folding>
-            <marker date="1491428483000" expanded="true" signature="390:409" ph="delete FROM " />
-            <marker date="1491428483000" expanded="true" signature="588:607" ph="delete FROM " />
-            <marker date="1491428483000" expanded="true" signature="788:816" ph="select count... players" />
-            <marker date="1491428483000" expanded="true" signature="804:816" ph="delete FROM " />
-            <marker date="1491428483000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
-            <marker date="1491428483000" expanded="true" signature="2054:2155" ph="select * FRO... players" />
-            <marker date="1491428483000" expanded="true" signature="2499:2547" ph="insert INTO matches... " />
-            <marker date="1491428483000" expanded="true" signature="2777:2799" ph="select max(w... players" />
-            <marker date="1491428483000" expanded="true" signature="2777:2808" ph="select max(w... standings" />
-            <marker date="1491428483000" expanded="true" signature="2908:3027" ph="select id,sc... standings" />
-            <marker date="1491428483000" expanded="true" signature="3532:3651" ph="select id,wi... standings" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/tournament.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="75" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <marker date="1491429009000" expanded="true" signature="390:409" ph="delete FROM " />
+            <marker date="1491429009000" expanded="true" signature="588:607" ph="delete FROM " />
+            <marker date="1491429009000" expanded="true" signature="788:816" ph="select count... players" />
+            <marker date="1491429009000" expanded="true" signature="804:816" ph="delete FROM " />
+            <marker date="1491429009000" expanded="true" signature="1309:1345" ph="insert INTO players... " />
+            <marker date="1491429009000" expanded="true" signature="2054:2172" ph="select * FRO... players" />
+            <marker date="1491429009000" expanded="true" signature="2516:2564" ph="insert INTO matches... " />
+            <marker date="1491429009000" expanded="true" signature="2794:2816" ph="select max(w... players" />
+            <marker date="1491429009000" expanded="true" signature="2794:2825" ph="select max(w... standings" />
+            <marker date="1491429009000" expanded="true" signature="2925:3044" ph="select id,sc... standings" />
+            <marker date="1491429009000" expanded="true" signature="3549:3668" ph="select id,wi... standings" />
+          </folding>
         </state>
       </provider>
     </entry>
