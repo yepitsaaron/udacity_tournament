@@ -17,7 +17,6 @@ def deleteMatches():
     conn = connect()
     c = conn.cursor()
     c.execute("delete FROM matches;")
-    c.execute("update players set matches = 0, wins = 0;")
     conn.commit()
     conn.close()
 
@@ -72,7 +71,7 @@ def playerStandings():
     """
     conn = connect()
     c = conn.cursor()
-    c.execute("select * FROM players order by wins desc;")
+    c.execute("select s.id,p.name,s.wins,s.matches FROM standings s join players p on p.id = s.id order by wins desc;")
     results = c.fetchall()
     conn.close()
     return results
@@ -89,13 +88,6 @@ def reportMatch(winner, loser):
     c = conn.cursor()
     c.execute("insert INTO matches(winner, loser) values(%i,%i)"
               % (winner, loser))
-
-    # update winner
-    c.execute("update players set wins = (wins+1),matches = (matches+1)"
-              "where id = %i" % winner)
-
-    # update loser
-    c.execute("update players set matches = (matches+1) where id = %i" % loser)
     conn.commit()
     conn.close()
 
@@ -104,7 +96,7 @@ def swissPairings():
     conn = connect()
     c = conn.cursor()
     # determine the max # of wins for initial pairing
-    c.execute("select max(wins) FROM players;")
+    c.execute("select max(wins) FROM standings;")
     results = c.fetchone()
     max_wins = results[0]
     # find winning pairings
